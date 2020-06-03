@@ -1,0 +1,8 @@
+<div class="col-8 offset-2">
+  <%= bootstrap_form_for(@user) do |f| %>
+    <%= f.email_field :email %>
+    <%= f.password_field :password %>
+    <%= f.check_box :remember_me %>
+    <%= f.submit "Log In" %>
+  <% end %>
+</div>

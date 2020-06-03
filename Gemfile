@@ -62,3 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'paperclip'
+gem 'devise'
+gem 'bootstrap_form'
+gem 'bootstrap'
+gem 'jquery-rails'
